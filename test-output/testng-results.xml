@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T19:47:20 IST" name="Suite" finished-at="2024-07-18T19:47:57 IST" duration-ms="37214">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T19:47:20 IST" name="Test" finished-at="2024-07-18T19:47:57 IST" duration-ms="37214">
+      <class name="TestLayer.ProductPageTest">
+        <test-method signature="ProcductValidate()[pri:0, instance:TestLayer.ProductPageTest@6f204a1a]" started-at="2024-07-18T19:47:37 IST" name="ProcductValidate" finished-at="2024-07-18T19:47:54 IST" duration-ms="16812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcductValidate -->
+      </class> <!-- TestLayer.ProductPageTest -->
+      <class name="TestLayer.CartTest">
+        <test-method is-config="true" signature="initializeCartPage()[pri:0, instance:TestLayer.CartTest@2de56eb2]" started-at="2024-07-18T19:47:54 IST" name="initializeCartPage" finished-at="2024-07-18T19:47:54 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCartPage -->
+        <test-method signature="verifyProduct()[pri:0, instance:TestLayer.CartTest@2de56eb2]" started-at="2024-07-18T19:47:54 IST" name="verifyProduct" finished-at="2024-07-18T19:47:57 IST" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+      </class> <!-- TestLayer.CartTest -->
+      <class name="TestLayer.LoginPageTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:TestLayer.LoginPageTest@eadd4fb]" started-at="2024-07-18T19:47:20 IST" name="SetUp" finished-at="2024-07-18T19:47:31 IST" duration-ms="10932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidateLogInpage()[pri:0, instance:TestLayer.LoginPageTest@eadd4fb]" started-at="2024-07-18T19:47:31 IST" name="ValidateLogInpage" finished-at="2024-07-18T19:47:37 IST" duration-ms="6044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogInpage -->
+      </class> <!-- TestLayer.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
